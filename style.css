@@ -1,0 +1,123 @@
+*{
+    color: #fff;
+}
+
+.headerfterbg{
+    background-color: #1A1A1A;
+}
+
+.redcolorbg{
+    background-color: #E54E5D;
+}
+
+body{
+    background-color: #E8E5E5;
+}
+
+.search_bar {
+    width: 40vw;
+    margin-right: 15vw;
+    margin-top: 2vh;
+}
+
+.bodyofcardone{
+    margin-top: 15vh;
+    justify-content: center;
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carticon{
+    font-size: x-large;
+    padding: 15px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.card_hdcded{
+    width: 300px;
+    background-color: white;
+    overflow-x: hidden;
+    color: black;
+    box-shadow: 3px 4px 14px 4px rgba(00, 00, 00, 30%);
+    margin: 25px 20px;
+    
+}
+
+.card_hdcdedtwo{
+    width: 250px;
+    background-color: white;
+    overflow-x: hidden;
+    color: black;
+    box-shadow: 3px 4px 14px 4px rgba(00, 00, 00, 30%);
+    margin: 25px 20px;
+}
+
+.imgofcard_hdcded{
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+}
+
+.cardtitle_hdcded,.cartddescription_hdcded{
+    color: rgb(0, 0, 0);
+}
+
+.forthrowofcard{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+
+.btnofcard_hdcded{
+    background-color: #E54E5D;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.priceofcard_hdcded{
+    color: #E54E5D;
+}
+
+.caursolitem2{
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.divoffooter{
+    border-bottom: 2px solid white;
+}
+
+.divoffooter ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: left;
+}
+
+.divoffooter ul li{
+    width: 300px;
+    margin: 5px 10px;
+}
+
+.imgoffooter{
+    width: 250px;
+}
+
+.spanofimg img{
+    margin-top: 20px;
+    width: 50px;
+}
+
+@media (max-width: 991px) {
+    .search_bar{
+        width: 100%;
+    }
+}
